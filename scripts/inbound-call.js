@@ -12,7 +12,7 @@ async function makeInboundCall() {
   
   let twiml = new VoiceResponse();
   twiml.pause({ length: 10 });
-  twiml.say('Which models of airpods do you have available right now?');
+  twiml.say('Hello! My name is Julia! I’m here to help you today. Whether you need assistance with your product or you have a query about our services, I’m equipped to provide you with smart, efficient solutions. How may I assist you today?');
   twiml.pause({ length: 30 });
   twiml.hangup();
 
